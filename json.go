@@ -114,6 +114,12 @@ func (self *myjson) HasKey(key String) bool {
 	return true
 }
 
+func (self *myjson) Delete(key String) {
+	if self.HasKey(key) {
+		delete(self.jmap, key)
+	}
+}
+
 func (self *myjson) parse(json map[string]interface{}) map[String]interface{} {
 	newj := make(map[String]interface{})
 	for k, v := range json {
