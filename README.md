@@ -59,23 +59,23 @@ var jo = primitive.NewJson()
 
 	var data = []byte(`
 			{
-				"key1":"hello",
-				"key2":"world",
-				"key3":null,
-				"key4":13,
-				"key5":13.7,
-				"key6":true,
-				"key7":[
-						"a",
-						"b",
-						1,
-						1.3,
-						"x",
-						"y",
-						{
-							"key":"value"
-						}
-					]
+			"key1":"hello",
+			"key2":"world",
+			"key3":null,
+			"key4":13,
+			"key5":13.7,
+			"key6":true,
+			"key7":[
+				"a",
+					"b",
+					1,
+					1.3,
+					"x",
+					"y",
+					{
+						"key":"value"
+					}
+				]
 			}
 		`)
 
