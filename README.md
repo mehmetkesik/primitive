@@ -7,14 +7,18 @@ The project does not have any dependencies other than the standard library. Just
 # Example
 
 ## Int
-`var i Int` <br/>
-`i = 13` <br/>
-`fmt.Println(i.Abs(), i.Pow(3), i.ToString())` <br/>
+```
+var i Int
+i = 13
+fmt.Println(i.Abs(), i.Pow(3), i.ToString())
+```
 
 ## Float
-`var f Float` <br/>
-`f = 13.7` <br/>
-`fmt.Println(f.ToInt(), f.ToString(), f.Pow(3), f.Abs())` <br/>
+```
+var f Float
+f = 13.7
+fmt.Println(f.ToInt(), f.ToString(), f.Pow(3), f.Abs())
+```
 
 ## String
 ```
