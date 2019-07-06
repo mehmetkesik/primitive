@@ -17,7 +17,7 @@ The project does not have any dependencies other than the standard library. Just
 `fmt.Println(f.ToInt(), f.ToString(), f.Pow(3), f.Abs())` <br/>
 
 ## String
-`
+```
 var s String
 
 s = "hello world"
@@ -48,4 +48,4 @@ if err != nil {
 	panic(err)
 }
 fmt.Println(i, f)
-`
+```
