@@ -8,7 +8,7 @@ import (
 type Float float64
 
 func (self *Float) ToString() string {
-	return strconv.FormatFloat(float64(*self), 'E', -1, 10)
+	return strconv.FormatFloat(float64(*self), 'E', -1, 64)
 }
 
 func (self *Float) ToInt() Int {
